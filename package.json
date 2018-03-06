@@ -1,0 +1,25 @@
+{
+  "name": "recaptcha-nextjs",
+  "homepage": "https://ducthotran.github.io/reCAPTCHA-nextjs",
+  "scripts": {
+    "dev": "node app.js",
+    "build": "next build && next export",
+    "start": "NODE_ENV=production node app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "next": "5.0.0",
+    "react": "16.2.0",
+    "react-async-script": "^0.9.1",
+    "react-dom": "16.2.0",
+    "react-google-recaptcha": "^0.9.9",
+    "request": "^2.83.0"
+  },
+  "description": "This project was bootstrapped with [Create Next App](https://github.com/segmentio/create-next-app).",
+  "version": "1.0.0",
+  "main": "next.config.js",
+  "devDependencies": {},
+  "author": "Duc Tho Tran",
+  "license": "ISC"
+}
