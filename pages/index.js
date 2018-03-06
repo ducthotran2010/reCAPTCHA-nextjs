@@ -29,7 +29,7 @@ export default class extends React.Component {
       return (
          <div>
             <Head title="Google reCAPTCHA app"/>
-            <h1>Anou, I worked</h1>
+            <h1>NOW YOU SEE ME WORKED~</h1>
             <form method="post" action="?query=submit" onSubmit={this.handleSubmit}>
                <input type="email" name="email" placeholder="Type your email" size="40" required/><br/>
                <textarea type="text" name="content" value={this.state.value} onChange={this.handleTextChange} placeholder="Enter your comments" size="40" required/>

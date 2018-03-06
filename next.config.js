@@ -1,4 +1,4 @@
-const debug = process.env.NODE_ENV !== "production";
+const isProduction = process.env.NODE_ENV === "production";
 
 module.exports = {
    webpack: (config) => {
@@ -13,5 +13,5 @@ module.exports = {
          "/": { page: "/" }
       }
    },
-   assetPrefix: !debug ? 'https://ducthotran2010.github.io/reCAPTCHA-nextjs/' : ''
+   assetPrefix: isProduction ? '/reCAPTCHA-nextjs' : ''
 }
